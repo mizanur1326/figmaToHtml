@@ -1,0 +1,22 @@
+#headernav ul li a{
+    color: #505F98; 
+    
+}
+.header_hero {
+    /* 
+    width: auto;
+    height: 1000px;
+    background-repeat: no-repeat; */
+    background-image: url(img/Path.png);
+    background-repeat: no-repeat; 
+    background-position: right;    
+}
+
+#hero-text{
+    margin-top: 100px;
+}
+
+#hero-img{
+    float: right;
+    width: 400px;
+}
