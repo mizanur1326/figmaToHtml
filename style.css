@@ -9,7 +9,8 @@
     background-repeat: no-repeat; */
     background-image: url(img/Path.png);
     background-repeat: no-repeat; 
-    background-position: right;    
+    background-position: right;   
+    height: 650px; 
 }
 
 #hero-text{
@@ -19,4 +20,8 @@
 #hero-img{
     float: right;
     width: 400px;
+}
+footer{
+    height: 400px;
+    background-image: url(img/Rectangle.png);
 }
