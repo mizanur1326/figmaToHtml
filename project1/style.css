@@ -1,7 +1,7 @@
 #headernav ul li a{
     color: #505F98; 
-    
 }
+
 .header_hero {
     /* 
     width: auto;
@@ -21,7 +21,19 @@
     float: right;
     width: 400px;
 }
-footer{
-    height: 400px;
+
+#row-section{
+    height: 350px;
+}
+#footer-1{
+    height: 600px;
     background-image: url(img/Rectangle.png);
+}
+#footer-2{
+    background-image: url(img/Rectangle1.png);
+    height: 220px;
+    width: auto;
+}
+.fa-brands{
+    margin-right: 10px;
 }
