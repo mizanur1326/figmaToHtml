@@ -1,3 +1,8 @@
 header{
     background-image: url(img/top-main.png);
+    background-size: cover;
+    height: 100vh;
+}
+.brand-img{
+    width: 100%;
 }
