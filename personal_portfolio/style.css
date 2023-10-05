@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.home{
+    height: 100vh;
+    background-color: black;
+}
+.navbar{
+    background-color: #1B1B1B;
+    height: 70px;
+    border-radius: 10px;
+}
+.navbar-text, .navbar-brand, .nav-link{
+    color: #9C9C9C !important;
+}
+.nav-link{
+    margin-right: 20px;
+}
+.heroMain{
+    height: 300px;
+    margin-top: 100px !important;
+    margin-bottom: 50px;
+    margin-left: 65px;
+    display: flex;
+    align-items: center;
+}
