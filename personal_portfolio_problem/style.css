@@ -29,16 +29,22 @@ html{
     margin: 0rem 5rem;
 }
 .home{
-    height: 100vh;
+    /* height: auto; */
+    width: 128rem;
+    height: 70rem;
     background-color: #080808;
+    margin: 0rem 0rem 5rem 0rem;
+    padding: 0rem 0rem 5rem 0rem;
 }
 .navbar{
     background-color: #1B1B1B;
+    width: 111rem ;
     height: 7rem;
     border-radius: 1rem;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1.4rem;
     font-weight: 400;
+    
 }
 .navbar-text, .navbar-brand, .nav-link{
     color: #9C9C9C !important;
@@ -95,9 +101,85 @@ html{
 }
 .brands{
     display: flex;
-    gap: 5rem;
     justify-content: space-between;
     margin: 0rem 20rem;
 }
+.firstRow h1{
+    color: #080808;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.secondRow p{
+    width: 57rem;
+    margin: auto;
+    color: #9C9C9C;
+    text-align: center;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.14px;
+}
+.thirdRow{
+    margin: 7rem 20rem;
+    text-align: start;
+    width: 89.2rem;
+    height: 30rem;
+}
+.thirdRow span{
+    color: #FFA217;
+    font-family: IBM Plex Mono;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem; /* 200% */
+    letter-spacing: 0.12px;
+}
+.thirdRow h2{
+    color: #080808;
+    font-family: Raleway;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 1.5rem 0rem 0rem 0rem;
+}
+.thirdRow p{
+    width: 42.1rem;
+    color: #9C9C9C;
+    font-family: IBM Plex Mono;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem; /* 171.429% */
+    letter-spacing: 0.014rem;
+    margin: 0rem 0rem 5rem 0rem;
+}
+.thirdRow .caseBtn{
+    color: #FFF;
+    font-family: IBM Plex Mono;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 0.4rem;
+    background: #FFA217;
+    box-shadow: 0rem 8rem 30rem 0rem rgba(42, 176, 144, 0.10);
+    padding: 1rem 2.4rem;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+.thirdRowRight img{
+    width: 445px;
+    height: 300px;
+    display: flex;
 
-
+    align-items: center;
+    justify-content: center;
+}
