@@ -6,7 +6,6 @@
         NORMAL
             font-family: 'IBM Plex Mono', monospace;
 
-
             font-size: 14px;
             font-weight: 400; 
     */
@@ -15,14 +14,19 @@
         Raleway 
             font-family: 'Raleway', sans-serif;
 
-
             font-weight: 800;
             font-size: 44px;
     */
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     box-sizing: border-box;
+}
+html{
+    font-size: 62.50%;
+}
+.topNav{
+    margin: 0rem 5rem;
 }
 .home{
     height: 100vh;
@@ -30,23 +34,22 @@
 }
 .navbar{
     background-color: #1B1B1B;
-    height: 70px;
-    border-radius: 10px;
+    height: 7rem;
+    border-radius: 1rem;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 .navbar-text, .navbar-brand, .nav-link{
     color: #9C9C9C !important;
 }
 .nav-link{
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 .heroMainParent{
-    height: 300px;
-    margin-top: 100px !important;
-    margin-bottom: 50px;
-    margin-left: 65px;
+    height: 30rem;
+    margin: 7rem 20rem;
+    gap: 10rem;
     align-items: center;
     display: flex;
 }
@@ -54,39 +57,47 @@
     color: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 44px;
-    margin-bottom: 20px;
+    font-size: 4.4rem;
+    margin-bottom: 2rem;
 }
 .heroMain p{
-    width: 492px !important;
+    width: 49.2rem !important;
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
     color: #9C9C9C;
-    margin-bottom: 50px !important;
+    margin-bottom: 5rem !important;
 }
 .heroMain .heroBtn{
-    border-radius: 4px;
-    border: 1px solid #62BA1B;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #62BA1B;
     background: #3F8E00;
-    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);
-    padding: 10px 20px;
+    box-shadow: 0rem 0.8rem 3rem 0rem rgba(63, 142, 0, 0.50);
+    padding: 1rem 2rem;
     align-items: center;
     color: #FFF;
     font-family: IBM Plex Mono;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
 }
 .heroMainImg{
-    border-radius: 350px;
+    border-radius: 35rem;
+}
+.workedWith{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #9C9C9C;
+    margin: 2rem 20rem;
 }
 .brands{
     display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: space-around;
+    gap: 5rem;
+    justify-content: space-between;
+    margin: 0rem 20rem;
 }
+
 
