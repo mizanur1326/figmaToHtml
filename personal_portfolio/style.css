@@ -1,3 +1,7 @@
+    /* Font Used in website*/
+    /* font-family: 'IBM Plex Mono', monospace; */
+    /* font-family: 'Raleway', sans-serif; */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,7 +9,7 @@
 }
 .home{
     height: 100vh;
-    background-color: black;
+    background-color: #080808;
 }
 .navbar{
     background-color: #1B1B1B;
@@ -25,4 +29,13 @@
     margin-left: 65px;
     display: flex;
     align-items: center;
+}
+.heroMain h1{
+    color: #fff;
+}
+.brands{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
 }
