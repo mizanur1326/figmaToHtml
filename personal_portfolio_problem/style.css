@@ -30,7 +30,7 @@ html{
 }
 .home{
     /* height: auto; */
-    width: 128rem;
+    /* width: 128rem; */
     height: 70rem;
     background-color: #080808;
     margin: 0rem 0rem 5rem 0rem;
@@ -38,7 +38,7 @@ html{
 }
 .navbar{
     background-color: #1B1B1B;
-    width: 111rem ;
+    /* width: 111rem ; */
     height: 7rem;
     border-radius: 1rem;
     font-family: 'IBM Plex Mono', monospace;
@@ -178,8 +178,18 @@ html{
 .thirdRowRight img{
     width: 445px;
     height: 300px;
+    margin: 7rem 0rem;
+    text-align: end;
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+}
+.fourthRowLeft img{
+    width: 445px;
+    height: 300px;
+    margin: 7rem 0rem;
+    text-align: end;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
