@@ -26,15 +26,6 @@ html{
     font-size: 62.50%;
 }
 /* Home Start Here ----------------------------------------------------------------------------------------- */
-.fixed-top {
-    position: fixed;
-    margin: 0rem 5rem;
-    z-index: 1030;
-}
-.parentNav{
-    background-color: #080808;
-    height: 7rem;
-}
 .topNav{
     margin: 0rem 5rem;
 }
@@ -43,9 +34,8 @@ html{
     /* width: 128rem; */
     height: 70rem;
     background-color: #080808;
-    /* margin: 0rem 0rem 5rem 0rem; */
-    /* margin: 10rem 0rem 0rem 0rem; */
-    padding: 8rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 5rem 0rem;
+    padding: 0rem 0rem 5rem 0rem;
 }
 .navbar{
     background-color: #1B1B1B;
@@ -127,7 +117,6 @@ html{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin: 8rem 0rem 0rem 0rem;
 }
 .secondRow p{
     width: 57rem;
@@ -143,7 +132,7 @@ html{
     margin-bottom: 5rem;
 }
 #caseStudies{
-    margin: 0rem 20rem 0rem 20rem;
+    margin: 7rem 20rem;
 }
 
 .thirdRow{
@@ -266,7 +255,7 @@ html{
     background: #D9D9D9;
 }
 
-/* Case Studies End ----------------------------------------------------------------------------------------- */
+/* Case Studies Start ----------------------------------------------------------------------------------------- */
 
 
 
@@ -274,9 +263,8 @@ html{
 #testimonial{
     height: 80rem;
     background-color: #080808;
-    padding-top: 8rem;
-    /* margin: 0rem 0rem 5rem 0rem; */
-    /* padding: 0rem 0rem 5rem 0rem; */
+    margin: 0rem 0rem 5rem 0rem;
+    padding: 0rem 0rem 5rem 0rem;
 }
 
 .testimonial .firstTest h2{
@@ -287,7 +275,7 @@ html{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    /* margin: 8rem 0rem 1rem 0rem; */
+    margin: 8rem 0rem 1rem 0rem;
 }
 .testimonial .secondTest p{
     color: #9C9C9C;
@@ -357,8 +345,7 @@ html{
 
 /* Recent Work Start ----------------------------------------------------------------------------------- */
 #recentWork{
-    padding-top: 7rem;
-    margin-bottom: 5rem;
+    margin: 7rem 20rem;
 }
 .recentWork h2{
     color: #080808;
