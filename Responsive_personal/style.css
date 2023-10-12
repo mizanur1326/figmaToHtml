@@ -1,0 +1,36 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+.navBar h1{
+    margin: 0rem 0rem;
+}
+.navBar .navLinks{
+    margin: 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #9C9C9C;
+    font-family: IBM Plex Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.navBar{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5rem;
+    display: flex;
+    padding: 1rem 5rem;
+}
