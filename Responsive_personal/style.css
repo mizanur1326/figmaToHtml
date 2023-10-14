@@ -3,34 +3,39 @@
     padding: 0rem;
     box-sizing: border-box;
 }
-.navBar h1{
-    margin: 0rem 0rem;
-}
-.navBar .navLinks{
-    margin: 0rem 0rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-}
 ul li a{
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
     text-decoration: none;
-    color: #9C9C9C;
-    font-family: IBM Plex Mono;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.14px;
 }
-ul{
+.fluidHead{
+    background-color: #000;
+}
+.containerHead{
+    background-color: #1B1B1B;
+}
+
+.navBar{
+    margin: 0rem 5rem;
+    background-color: #1B1B1B;
+}
+.navRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navLinks{
     list-style: none;
     display: flex;
+    margin: auto;
 }
-.navBar{
-    width: 100%;
-    justify-content: space-between;
-    padding: 0.5rem;
-    display: flex;
-    padding: 1rem 5rem;
+.navLinks a{
+    color: #9C9C9C;
+    margin: 0rem 15px;
 }
+.headDiv .navBar .navRow{
+    color: #9C9C9C;
+}
+
+
